@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Paul Savoiu si Andre -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Keyboard - Paul</title>
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        name="keyboard-input"
+        id="keyboard-input"
+        disabled="disabled"
+      />
+      <div class="keyboard-main">
+        <div class="row1" id="row1">
+          <button class="btns-keyboard">1</button>
+          <button class="btns-keyboard">2</button>
+          <button class="btns-keyboard">3</button>
+          <button class="btns-keyboard">4</button>
+          <button class="btns-keyboard">5</button>
+          <button class="btns-keyboard">6</button>
+          <button class="btns-keyboard">7</button>
+          <button class="btns-keyboard">8</button>
+          <button class="btns-keyboard">9</button>
+          <button class="btns-keyboard">0</button>
+          <button class="btns-special" id="delete-btn">DELETE</button>
+        </div>
+        <div class="row2" id="row2">
+          <button class="btns-keyboard">q</button>
+          <button class="btns-keyboard">w</button>
+          <button class="btns-keyboard">e</button>
+          <button class="btns-keyboard">r</button>
+          <button class="btns-keyboard">t</button>
+          <button class="btns-keyboard">y</button>
+          <button class="btns-keyboard">u</button>
+          <button class="btns-keyboard">i</button>
+          <button class="btns-keyboard">o</button>
+          <button class="btns-keyboard">p</button>
+        </div>
+        <div class="row3" id="row3">
+          <button class="btns-special" id="btn-caps">CAPS</button>
+          <button class="btns-keyboard">a</button>
+          <button class="btns-keyboard">s</button>
+          <button class="btns-keyboard">d</button>
+          <button class="btns-keyboard">f</button>
+          <button class="btns-keyboard">g</button>
+          <button class="btns-keyboard">h</button>
+          <button class="btns-keyboard">j</button>
+          <button class="btns-keyboard">k</button>
+          <button class="btns-keyboard">l</button>
+        </div>
+        <div class="row4" id="row4">
+          <button class="btns-keyboard">z</button>
+          <button class="btns-keyboard">x</button>
+          <button class="btns-keyboard">c</button>
+          <button class="btns-keyboard">v</button>
+          <button class="btns-keyboard">b</button>
+          <button class="btns-keyboard">n</button>
+          <button class="btns-keyboard">m</button>
+        </div>
+        <div class="row5">
+          <button class="btns-special" id="space-btn">SPACE</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
